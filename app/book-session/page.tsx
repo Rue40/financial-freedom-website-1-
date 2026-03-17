@@ -35,7 +35,7 @@ export default function BookSessionPage() {
                 </p>
                 <Button asChild className="w-full">
                   <a
-                    href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
+                    href="https://calendly.com/kingdomwealthacademy25/45min"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -54,7 +54,7 @@ export default function BookSessionPage() {
                 </p>
                 <Button asChild className="w-full">
                   <a
-                    href="https://share.google/FSqNFVXG6ZIcOaU7d"
+                    href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
                     target="_blank"
                     rel="noopener noreferrer"
                   >
@@ -73,7 +73,7 @@ export default function BookSessionPage() {
                 </p>
                 <Button asChild className="w-full">
                   <a
-                    href="https://share.google/FSqNFVXG6ZIcOaU7d"
+                    href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

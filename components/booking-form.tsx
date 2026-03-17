@@ -191,7 +191,7 @@ export function BookingForm() {
         <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
           <Button asChild variant="outline" className="w-full bg-transparent">
             <a
-              href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
+              href="https://calendly.com/kingdomwealthacademy25/45min"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -200,7 +200,7 @@ export function BookingForm() {
           </Button>
           <Button asChild variant="outline" className="w-full bg-transparent">
             <a
-              href="https://share.google/FSqNFVXG6ZIcOaU7d"
+              href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -209,7 +209,7 @@ export function BookingForm() {
           </Button>
           <Button asChild variant="outline" className="w-full bg-transparent">
             <a
-              href="https://share.google/FSqNFVXG6ZIcOaU7d"
+              href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
               target="_blank"
               rel="noopener noreferrer"
             >
