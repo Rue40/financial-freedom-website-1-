@@ -15,12 +15,13 @@ export default function Home() {
       <TopBar />
       <Header />
       <main className="flex-1">
-        <HeroSection />
-        <DailyQuotes />
-        <AboutSection />
+        <HeroSection />        
+      
         <OneOnOneSection />
         <DiasporaSection />
         <OrganizationTrainingSection />
+        <AboutSection />
+        <DailyQuotes />
       </main>
       <Footer />
       <ScrollToTop />
