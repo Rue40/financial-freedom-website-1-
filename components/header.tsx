@@ -13,41 +13,34 @@ export function Header() {
       <div className="container flex h-16 items-center justify-between">
         <Link href="/" className="flex items-center gap-2">
           <img src="/kwa-logo.png" alt="Kingdom Wealth Academy" className="h-10 w-10 transition-transform hover:scale-110" />
-          <span className="hidden font-semibold sm:inline-block">Kingdom Wealth Academy</span>
+          <span className="hidden font-semibold sm:inline-block"></span>
         </Link>
 
         {/* Desktop Navigation */}
-        <nav className="hidden items-center gap-6 md:flex">
-          <Link
-            href="#about"
-            className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
-          >
-            About
-          </Link>
-          <Link
-            href="#services"
-            className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
-          >
-            Services
-          </Link>
-          <Link
-            href="/books"
-            className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
-          >
-            Books
-          </Link>
-          <Link
-            href="#testimonials"
-            className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground"
-          >
-            Testimonials
-          </Link>
+        <nav className="hidden items-center gap-2 md:flex justify-center flex-1">
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <Link href="#about">About</Link>
+          </Button>
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <Link href="#one-on-one">One-on-One Coaching</Link>
+          </Button>
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <Link href="/books">Books</Link>
+          </Button>
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <a href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij" target="_blank" rel="noopener noreferrer">
+              Monthly Workshops
+            </a>
+          </Button>
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <Link href="#diaspora">Diaspora Financial</Link>
+          </Button>
+          <Button asChild variant="ghost" className="border-glow hover:bg-primary/10 rounded-full px-6">
+            <Link href="#organization">Organization Training</Link>
+          </Button>
         </nav>
 
         <div className="flex items-center gap-4">
-          <Button asChild className="hidden sm:flex">
-            <Link href="/book-session">Book a Session</Link>
-          </Button>
           <Button variant="ghost" size="icon" className="md:hidden" onClick={() => setMobileMenuOpen(!mobileMenuOpen)}>
             {mobileMenuOpen ? <X className="h-5 w-5" /> : <Menu className="h-5 w-5" />}
             <span className="sr-only">Toggle menu</span>
@@ -66,11 +59,11 @@ export function Header() {
               About
             </Link>
             <Link
-              href="#services"
+              href="#one-on-one"
               className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Services
+              One-on-One Coaching
             </Link>
             <Link
               href="/books"
@@ -79,18 +72,28 @@ export function Header() {
             >
               Books
             </Link>
+            <a
+              href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground py-2"
+            >
+              Monthly Workshops
+            </a>
             <Link
-              href="#testimonials"
+              href="#diaspora"
               className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground py-2"
               onClick={() => setMobileMenuOpen(false)}
             >
-              Testimonials
+              Diaspora Financial
             </Link>
-            <Button asChild className="w-full">
-              <Link href="/book-session" onClick={() => setMobileMenuOpen(false)}>
-                Book a Session
-              </Link>
-            </Button>
+            <Link
+              href="#organization"
+              className="text-sm font-medium text-foreground/80 transition-colors hover:text-foreground py-2"
+              onClick={() => setMobileMenuOpen(false)}
+            >
+              Organization Training
+            </Link>
           </nav>
         </div>
       )}

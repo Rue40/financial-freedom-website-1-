@@ -106,8 +106,8 @@ export function HeroSection() {
             <div className="absolute -inset-4 bg-gradient-to-r from-accent/20 to-primary/20 blur-2xl animate-pulse"></div>
             <div className="relative overflow-hidden rounded-2xl border border-border bg-card shadow-2xl hover:shadow-accent/20 transition-shadow duration-500">
               <img
-                src="/workshop-hero.jpg"
-                alt="Coach Dorcus Njoroge - Kingdom Wealth Academy Financial Reset Workshop"
+                src="/hero-wealth-series.jpeg"
+                alt="Coach Dorcus Njoroge - Increasing Income Without Strain - February Wealth Series"
                 className="h-full w-full object-cover"
               />
             </div>

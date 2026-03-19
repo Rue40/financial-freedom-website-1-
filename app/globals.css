@@ -207,11 +207,11 @@
   
   .border-glow {
     @apply border-accent transition-shadow duration-300;
-    box-shadow: 0 0 20px 0 rgba(169, 169, 169, 0.3);
+    box-shadow: 0 0 20px 0 rgba(218, 165, 32, 0.25), 0 0 10px 0 rgba(34, 139, 34, 0.15);
   }
   
   .border-glow:hover {
-    box-shadow: 0 0 30px 0 rgba(169, 169, 169, 0.5);
+    box-shadow: 0 0 40px 0 rgba(218, 165, 32, 0.5), 0 0 20px 0 rgba(34, 139, 34, 0.35);
   }
 }
 

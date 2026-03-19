@@ -24,8 +24,8 @@ export default function BookSessionPage() {
             </div>
 
             {/* Session Types with Direct Booking */}
-            <div className="grid md:grid-cols-3 gap-6 mb-12">
-              <div className="bg-card border rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col">
+            <div className="grid md:grid-cols-2 gap-6 mb-12">
+              <div className="bg-card border rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col border-glow">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Video className="w-6 h-6 text-primary" />
                 </div>
@@ -44,7 +44,7 @@ export default function BookSessionPage() {
                 </Button>
               </div>
 
-              <div className="bg-card border rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col">
+              <div className="bg-card border rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col border-glow">
                 <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
                   <Calendar className="w-6 h-6 text-primary" />
                 </div>
@@ -59,25 +59,6 @@ export default function BookSessionPage() {
                     rel="noopener noreferrer"
                   >
                     Register Now
-                  </a>
-                </Button>
-              </div>
-
-              <div className="bg-card border rounded-lg p-6 hover:shadow-lg transition-shadow flex flex-col">
-                <div className="w-12 h-12 bg-primary/10 rounded-lg flex items-center justify-center mb-4">
-                  <Clock className="w-6 h-6 text-primary" />
-                </div>
-                <h3 className="font-serif text-xl font-semibold mb-2">Quick Consultation</h3>
-                <p className="text-muted-foreground text-sm mb-4 flex-grow">
-                  Brief consultation for specific questions or guidance on next steps.
-                </p>
-                <Button asChild className="w-full">
-                  <a
-                    href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    Schedule
                   </a>
                 </Button>
               </div>

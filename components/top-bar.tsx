@@ -8,14 +8,14 @@ export function TopBar() {
           <div className="flex items-center gap-4 flex-wrap justify-center sm:justify-start">
             <a href="tel:+254741502996" className="flex items-center gap-2 hover:text-accent transition-colors">
               <Phone className="h-3 w-3" />
-              <span className="hidden sm:inline">+254 720747440</span>
+              <span className="hidden sm:inline">+254 741 502 996</span>
             </a>
             <a
-              href="mailto:kingdomwealthacademy25@gmail.com"
+              href="mailto:info@kingdomwealth.org"
               className="flex items-center gap-2 hover:text-accent transition-colors"
             >
               <Mail className="h-3 w-3" />
-              <span className="hidden md:inline">kingdomwealthacademy25@gmail.com</span>
+              <span className="hidden md:inline">info@kingdomwealth.org</span>
             </a>
           </div>
           <div className="flex items-center gap-2">

@@ -128,7 +128,6 @@ export function BookingForm() {
             <SelectContent>
               <SelectItem value="one-on-one">One-on-One Coaching</SelectItem>
               <SelectItem value="workshop">Financial Reset Workshop</SelectItem>
-              <SelectItem value="consultation">Quick Consultation</SelectItem>
             </SelectContent>
           </Select>
         </div>
@@ -188,7 +187,7 @@ export function BookingForm() {
 
       <div className="space-y-4 border-t pt-6">
         <p className="text-sm font-semibold text-foreground text-center">Or Book Directly</p>
-        <div className="grid grid-cols-1 sm:grid-cols-3 gap-3">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Button asChild variant="outline" className="w-full bg-transparent">
             <a
               href="https://calendly.com/kingdomwealthacademy25/45min"
@@ -205,15 +204,6 @@ export function BookingForm() {
               rel="noopener noreferrer"
             >
               Workshop
-            </a>
-          </Button>
-          <Button asChild variant="outline" className="w-full bg-transparent">
-            <a
-              href="https://paystack.com/buy/the-90-minute-income-upgrade-omjlij"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Quick Consultation
             </a>
           </Button>
         </div>

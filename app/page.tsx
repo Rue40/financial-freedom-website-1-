@@ -3,8 +3,9 @@ import { Header } from "@/components/header"
 import { HeroSection } from "@/components/hero-section"
 import { DailyQuotes } from "@/components/daily-quotes"
 import { AboutSection } from "@/components/about-section"
-import { ServicesSection } from "@/components/services-section"
-import { TestimonialsSection } from "@/components/testimonials-section"
+import { OneOnOneSection } from "@/components/one-on-one-section"
+import { DiasporaSection } from "@/components/diaspora-section"
+import { OrganizationTrainingSection } from "@/components/organization-training-section"
 import { Footer } from "@/components/footer"
 import { ScrollToTop } from "@/components/scroll-to-top"
 
@@ -17,8 +18,9 @@ export default function Home() {
         <HeroSection />
         <DailyQuotes />
         <AboutSection />
-        <ServicesSection />
-        <TestimonialsSection />
+        <OneOnOneSection />
+        <DiasporaSection />
+        <OrganizationTrainingSection />
       </main>
       <Footer />
       <ScrollToTop />

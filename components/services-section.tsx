@@ -33,19 +33,20 @@ export function ServicesSection() {
   const services = [
     {
       icon: Video,
-      title: "Personal Coaching",
-      description: "One-on-one financial coaching tailored to your unique situation and goals.",
-      link: "/book-session",
-      linkText: "Learn More",
+      title: "One-on-One Coaching",
+      description: "Personalized financial guidance tailored to your unique situation and goals.",
+      link: "https://calendly.com/kingdomwealthacademy25/45min",
+      external: true,
+      linkText: "Book Session",
       delay: "100ms",
     },
     {
       icon: Users,
-      title: "2026 Financial Reset Workshop",
-      description: "Interactive workshop on Kingdom wealth principles with practical application. Pay 1000 KSH via Paystack.",
-      link: "https://paystack.com/buy/2026-financial-reset-workshop-szbysi",
+      title: "Financial Reset Workshop",
+      description: "Interactive workshop on Kingdom wealth principles with practical application and strategies.",
+      link: "https://paystack.com/buy/the-90-minute-income-upgrade-omjlij",
       external: true,
-      linkText: "Book Workshop",
+      linkText: "Register Now",
       delay: "200ms",
     },
     {
@@ -55,15 +56,6 @@ export function ServicesSection() {
       link: "/books",
       linkText: "Browse Resources",
       delay: "300ms",
-    },
-    {
-      icon: Calendar,
-      title: "Free Consultation",
-      description: "Schedule a free quick consultation with Calendly to discuss your financial journey.",
-      link: "https://calendly.com/clarity-hub-coaching/one-on-one-coaching-session",
-      external: true,
-      linkText: "Schedule Now",
-      delay: "400ms",
     },
   ]
 

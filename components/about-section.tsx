@@ -125,15 +125,26 @@ export function AboutSection() {
                   Her approach combines practical financial wisdom with deep spiritual insight, ensuring that your
                   journey to wealth is not just about accumulation, but about stewarding resources for Kingdom impact.
                 </p>
-               
+                <p className="flex items-center gap-2">
+                  <span className="font-semibold text-foreground">Email:</span>
+                  <a href="mailto:kingdomwealthacademy25@gmail.com" className="text-accent hover:underline">
+                    kingdomwealthacademy25@gmail.com
+                  </a>
+                </p>
+                <p className="flex items-center gap-2">
+                  <span className="font-semibold text-foreground">WhatsApp:</span>
+                  <a href="https://wa.me/254720747440" target="_blank" rel="noopener noreferrer" className="text-accent hover:underline">
+                    +254720747440
+                  </a>
+                </p>
               </div>
             </div>
             <div className="relative order-first md:order-last">
-              <div className="mx-auto h-[280px] w-[280px] max-w-full rounded-xl overflow-hidden border-4 border-primary/20 shadow-2xl transition-all duration-500 hover:scale-105 hover:border-accent/40 sm:h-[340px] sm:w-[340px] md:h-[420px] md:w-[420px]">
+              <div className="aspect-square rounded-xl overflow-hidden border-4 border-primary/20 shadow-2xl hover:border-accent/40 transition-all duration-500 hover:scale-105">
                 <img
                   src="/coach-dorcus-portrait.jpg"
                   alt="Coach Dorcus Njoroge - Financial Coach"
-                  className="h-full w-full object-contain bg-muted/20"
+                  className="h-full w-full object-cover"
                 />
               </div>
             </div>
