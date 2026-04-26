@@ -35,7 +35,7 @@ export function ServicesSection() {
       icon: Video,
       title: "One-on-One Coaching",
       description: "Personalized financial guidance tailored to your unique situation and goals.",
-      link: "https://calendly.com/kingdomwealthacademy25/45min",
+      link: "https://calendly.com/kingdomwealthacademy25/15min",
       external: true,
       linkText: "Book Session",
       delay: "100ms",

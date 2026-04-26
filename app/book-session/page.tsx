@@ -35,7 +35,7 @@ export default function BookSessionPage() {
                 </p>
                 <Button asChild className="w-full">
                   <a
-                    href="https://calendly.com/kingdomwealthacademy25/45min"
+                    href="https://calendly.com/kingdomwealthacademy25/15min"
                     target="_blank"
                     rel="noopener noreferrer"
                   >

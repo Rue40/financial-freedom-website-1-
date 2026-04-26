@@ -190,7 +190,7 @@ export function BookingForm() {
         <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
           <Button asChild variant="outline" className="w-full bg-transparent">
             <a
-              href="https://calendly.com/kingdomwealthacademy25/45min"
+              href="https://calendly.com/kingdomwealthacademy25/15min"
               target="_blank"
               rel="noopener noreferrer"
             >

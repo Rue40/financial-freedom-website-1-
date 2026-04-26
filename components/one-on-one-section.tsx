@@ -84,7 +84,7 @@ export function OneOnOneSection() {
             Ready to transform your financial journey? Schedule your first consultation today.
           </p>
           <Button size="lg" asChild className="gap-2 px-8">
-            <a href="https://calendly.com/kingdomwealthacademy25/45min" target="_blank" rel="noopener noreferrer">
+            <a href="https://calendly.com/kingdomwealthacademy25/15min" target="_blank" rel="noopener noreferrer">
               Book Your Session
             </a>
           </Button>
